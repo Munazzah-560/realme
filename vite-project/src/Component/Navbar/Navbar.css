@@ -1,0 +1,40 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  li{
+    cursor: pointer;
+  }
+  
+  .navbar .logo h1 {
+    font-size: 26px;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+  }
+  .phone{
+    margin-right: 45px;
+  }
+  
+  .navbar .menu ul {
+    list-style: none;
+    display: flex;
+    margin: 3px;
+    padding: 0;
+  }
+  
+  .navbar .menu ul li {
+    margin-left: 10px;
+  }
+  
+  .navbar .menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+  }
+  
+  
+ 
